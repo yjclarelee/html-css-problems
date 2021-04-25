@@ -1,4 +1,4 @@
-# TestDome HTMl Problems
+# TestDome HTML Problems
 
 ## Semantics
 [Testdome Question](https://www.testdome.com/questions/html-css/semantics/50326?visibility=3&skillId=3)
