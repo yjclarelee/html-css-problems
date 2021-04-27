@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Form</title>
+</head>
+<body>
+    <form>
+        Formula: <input name="formula" list="formula"><br />
+        Iterations: <input type="range" min="1" max="10" name="iterations"><br />
+        Precision: <input type="number" min="1" max="100" value="50" name="precision"><br />
+        <datalist id="formula">
+          <option value="sin">sin</option>
+          <option value="cos">cos</option>
+          <option value="tan">tan</option>
+          <option value="cot">cot</option>
+        </datalist>
+      </form>
+</body>
+</html>
